@@ -1,0 +1,17 @@
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Never upload historical BOSS data
+data/raw/
+data/processed/
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+secrets.toml
+credentials.json
+cookies.txt
